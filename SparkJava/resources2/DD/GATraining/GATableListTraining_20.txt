@@ -1,0 +1,251 @@
+Generation: 1 Fittest: 36326 Fittest Chromosome: 34 6 82 8 9 16 76 6 
+Generation: 2 Fittest: 45086 Fittest Chromosome: 31 6 82 8 34 13 76 6 
+Generation: 3 Fittest: 49039 Fittest Chromosome: 31 6 78 8 34 13 73 6 
+Generation: 4 Fittest: 53055 Fittest Chromosome: 31 6 71 18 27 13 73 6 
+Generation: 5 Fittest: 53055 Fittest Chromosome: 31 6 71 18 27 13 73 6 
+Generation: 6 Fittest: 57295 Fittest Chromosome: 25 6 71 18 27 13 73 6 
+1 1:31.0 2:6.0 3:0.0
+2 1:82.0 2:8.0 3:0.0
+1 1:34.0 2:13.0 3:1.0
+2 1:73.0 2:6.0 3:1.0
+0 1:44.0 2:14.0 3:0.0
+0 1:46.0 2:6.0 3:1.0
+Generation: 1 Fittest: 44853 Fittest Chromosome: 35 9 60 19 20 7 63 8 
+Generation: 2 Fittest: 44853 Fittest Chromosome: 35 9 60 19 20 7 63 8 
+Generation: 3 Fittest: 45791 Fittest Chromosome: 17 6 79 12 23 14 61 7 
+Generation: 4 Fittest: 46236 Fittest Chromosome: 17 6 80 12 21 14 62 7 
+Generation: 5 Fittest: 64305 Fittest Chromosome: 17 6 79 12 23 9 61 7 
+Generation: 6 Fittest: 67370 Fittest Chromosome: 17 6 80 12 23 9 61 7 
+Generation: 7 Fittest: 75272 Fittest Chromosome: 8 6 79 12 23 9 61 7 
+1 1:8.0 2:6.0 3:0.0
+2 1:80.0 2:12.0 3:0.0
+1 1:23.0 2:9.0 3:1.0
+2 1:61.0 2:7.0 3:1.0
+0 1:52.0 2:9.0 3:0.0
+0 1:47.0 2:19.0 3:1.0
+Generation: 1 Fittest: 42101 Fittest Chromosome: 39 5 76 10 8 17 73 13 
+Generation: 2 Fittest: 53711 Fittest Chromosome: 36 13 70 16 28 16 63 6 
+Generation: 3 Fittest: 57515 Fittest Chromosome: 28 5 76 11 28 16 73 6 
+Generation: 4 Fittest: 62182 Fittest Chromosome: 28 5 76 11 28 16 63 6 
+Generation: 5 Fittest: 67139 Fittest Chromosome: 28 5 70 11 28 16 63 6 
+Generation: 6 Fittest: 79116 Fittest Chromosome: 26 5 76 10 28 10 61 8 
+1 1:26.0 2:5.0 3:0.0
+2 1:76.0 2:10.0 3:0.0
+1 1:28.0 2:10.0 3:1.0
+2 1:61.0 2:8.0 3:1.0
+0 1:53.0 2:13.0 3:0.0
+0 1:49.0 2:8.0 3:1.0
+Generation: 1 Fittest: 30454 Fittest Chromosome: 32 13 75 15 6 6 75 11 
+Generation: 2 Fittest: 37127 Fittest Chromosome: 24 7 75 15 6 6 62 11 
+Generation: 3 Fittest: 47676 Fittest Chromosome: 24 5 68 11 6 6 75 11 
+Generation: 4 Fittest: 52799 Fittest Chromosome: 29 5 68 11 6 6 75 11 
+Generation: 5 Fittest: 67129 Fittest Chromosome: 29 5 68 11 6 6 75 7 
+Generation: 6 Fittest: 67129 Fittest Chromosome: 29 5 68 11 6 6 75 7 
+1 1:29.0 2:5.0 3:0.0
+2 1:68.0 2:11.0 3:0.0
+1 1:6.0 2:6.0 3:1.0
+2 1:65.0 2:7.0 3:1.0
+0 1:50.0 2:10.0 3:0.0
+0 1:53.0 2:4.0 3:1.0
+Generation: 1 Fittest: 33578 Fittest Chromosome: 16 6 64 16 30 5 70 5 
+Generation: 2 Fittest: 42338 Fittest Chromosome: 16 6 63 16 30 10 70 5 
+Generation: 3 Fittest: 45267 Fittest Chromosome: 39 6 69 15 30 14 62 5 
+Generation: 4 Fittest: 60438 Fittest Chromosome: 16 5 71 15 19 10 70 7 
+Generation: 5 Fittest: 66212 Fittest Chromosome: 16 5 71 15 21 10 70 7 
+Generation: 6 Fittest: 73855 Fittest Chromosome: 16 5 71 15 19 7 70 5 
+Generation: 7 Fittest: 73855 Fittest Chromosome: 16 5 71 15 19 7 70 5 
+1 1:16.0 2:5.0 3:0.0
+2 1:71.0 2:15.0 3:0.0
+1 1:19.0 2:7.0 3:1.0
+2 1:70.0 2:5.0 3:1.0
+0 1:55.0 2:8.0 3:0.0
+0 1:51.0 2:9.0 3:1.0
+Generation: 1 Fittest: 29612 Fittest Chromosome: 35 10 60 17 32 15 71 6 
+Generation: 2 Fittest: 38797 Fittest Chromosome: 32 13 64 18 30 10 66 5 
+Generation: 3 Fittest: 38797 Fittest Chromosome: 32 13 64 18 30 10 66 5 
+Generation: 4 Fittest: 46235 Fittest Chromosome: 35 12 64 15 30 10 66 5 
+Generation: 5 Fittest: 53211 Fittest Chromosome: 35 13 60 18 30 10 66 5 
+Generation: 6 Fittest: 53211 Fittest Chromosome: 35 13 60 18 30 10 66 5 
+1 1:35.0 2:13.0 3:0.0
+2 1:64.0 2:15.0 3:0.0
+1 1:30.0 2:10.0 3:1.0
+2 1:66.0 2:5.0 3:1.0
+0 1:45.0 2:6.0 3:0.0
+0 1:47.0 2:10.0 3:1.0
+Generation: 1 Fittest: 29713 Fittest Chromosome: 29 7 85 9 12 14 64 11 
+Generation: 2 Fittest: 29855 Fittest Chromosome: 29 7 85 9 29 14 64 11 
+Generation: 3 Fittest: 52271 Fittest Chromosome: 36 7 85 9 29 13 62 5 
+Generation: 4 Fittest: 51553 Fittest Chromosome: 29 7 85 9 29 13 62 5 
+Generation: 5 Fittest: 62631 Fittest Chromosome: 36 5 75 10 29 10 62 5 
+Generation: 6 Fittest: 65102 Fittest Chromosome: 35 5 75 10 29 13 62 8 
+1 1:36.0 2:5.0 3:0.0
+2 1:75.0 2:10.0 3:0.0
+1 1:29.0 2:13.0 3:1.0
+2 1:62.0 2:8.0 3:1.0
+0 1:42.0 2:5.0 3:0.0
+0 1:51.0 2:8.0 3:1.0
+Generation: 1 Fittest: 34324 Fittest Chromosome: 35 7 78 18 25 13 65 8 
+Generation: 2 Fittest: 44880 Fittest Chromosome: 35 7 78 17 25 13 65 7 
+Generation: 3 Fittest: 54002 Fittest Chromosome: 34 7 71 18 25 16 61 8 
+Generation: 4 Fittest: 49028 Fittest Chromosome: 39 11 80 6 25 12 67 7 
+Generation: 5 Fittest: 62138 Fittest Chromosome: 35 7 80 9 25 12 60 8 
+Generation: 6 Fittest: 65132 Fittest Chromosome: 39 7 78 9 25 13 65 7 
+Generation: 7 Fittest: 72224 Fittest Chromosome: 39 7 78 9 25 12 65 7 
+1 1:39.0 2:7.0 3:0.0
+2 1:78.0 2:9.0 3:0.0
+1 1:25.0 2:12.0 3:1.0
+2 1:65.0 2:7.0 3:1.0
+0 1:58.0 2:3.0 3:0.0
+0 1:59.0 2:6.0 3:1.0
+Generation: 1 Fittest: 43227 Fittest Chromosome: 39 6 92 5 16 8 66 5 
+Generation: 2 Fittest: 45341 Fittest Chromosome: 39 6 73 11 30 10 64 8 
+Generation: 3 Fittest: 49794 Fittest Chromosome: 25 6 73 11 22 9 61 6 
+Generation: 4 Fittest: 54421 Fittest Chromosome: 39 6 73 10 16 8 61 6 
+Generation: 5 Fittest: 58359 Fittest Chromosome: 39 6 73 10 31 8 61 5 
+Generation: 6 Fittest: 65098 Fittest Chromosome: 32 5 73 10 32 8 64 5 
+1 1:32.0 2:5.0 3:0.0
+2 1:73.0 2:10.0 3:0.0
+1 1:32.0 2:8.0 3:1.0
+2 1:64.0 2:5.0 3:1.0
+0 1:49.0 2:17.0 3:0.0
+0 1:54.0 2:9.0 3:1.0
+Generation: 1 Fittest: 38605 Fittest Chromosome: 30 5 72 9 7 8 74 10 
+Generation: 2 Fittest: 46279 Fittest Chromosome: 30 5 72 9 7 8 74 6 
+Generation: 3 Fittest: 46279 Fittest Chromosome: 30 5 72 9 7 8 74 6 
+Generation: 4 Fittest: 49303 Fittest Chromosome: 37 5 72 9 20 8 74 6 
+Generation: 5 Fittest: 61831 Fittest Chromosome: 30 5 72 9 14 8 74 6 
+Generation: 6 Fittest: 65023 Fittest Chromosome: 30 5 84 7 14 8 74 6 
+1 1:30.0 2:5.0 3:0.0
+2 1:84.0 2:7.0 3:0.0
+1 1:14.0 2:8.0 3:1.0
+2 1:74.0 2:6.0 3:1.0
+0 1:54.0 2:14.0 3:0.0
+0 1:47.0 2:3.0 3:1.0
+Generation: 1 Fittest: 44939 Fittest Chromosome: 36 7 76 10 26 18 63 10 
+Generation: 2 Fittest: 44476 Fittest Chromosome: 22 7 76 10 27 18 63 10 
+Generation: 3 Fittest: 46852 Fittest Chromosome: 22 7 76 10 27 18 63 8 
+Generation: 4 Fittest: 58730 Fittest Chromosome: 22 7 80 10 27 11 63 7 
+1 1:22.0 2:7.0 3:0.0
+2 1:80.0 2:10.0 3:0.0
+1 1:27.0 2:11.0 3:1.0
+2 1:63.0 2:7.0 3:1.0
+0 1:59.0 2:9.0 3:0.0
+0 1:48.0 2:14.0 3:1.0
+Generation: 1 Fittest: 39472 Fittest Chromosome: 26 6 73 8 30 5 63 5 
+Generation: 2 Fittest: 43974 Fittest Chromosome: 26 6 73 8 38 5 63 5 
+Generation: 3 Fittest: 67551 Fittest Chromosome: 26 6 80 8 38 5 63 5 
+Generation: 4 Fittest: 67551 Fittest Chromosome: 26 6 80 8 38 5 63 5 
+Generation: 5 Fittest: 67551 Fittest Chromosome: 26 6 80 8 38 5 63 5 
+1 1:26.0 2:6.0 3:0.0
+2 1:80.0 2:8.0 3:0.0
+1 1:38.0 2:5.0 3:1.0
+2 1:63.0 2:5.0 3:1.0
+0 1:46.0 2:14.0 3:0.0
+0 1:41.0 2:8.0 3:1.0
+Generation: 1 Fittest: 47119 Fittest Chromosome: 36 16 72 18 20 9 64 8 
+Generation: 2 Fittest: 61568 Fittest Chromosome: 15 5 81 9 6 6 77 7 
+Generation: 3 Fittest: 61568 Fittest Chromosome: 15 5 81 9 6 6 77 7 
+Generation: 4 Fittest: 63524 Fittest Chromosome: 15 5 81 9 6 6 63 7 
+Generation: 5 Fittest: 82415 Fittest Chromosome: 34 14 81 9 35 11 60 7 
+Generation: 6 Fittest: 82415 Fittest Chromosome: 34 14 81 9 35 11 60 7 
+Generation: 7 Fittest: 82415 Fittest Chromosome: 34 14 81 9 35 11 60 7 
+1 1:34.0 2:14.0 3:0.0
+2 1:81.0 2:9.0 3:0.0
+1 1:35.0 2:11.0 3:1.0
+2 1:60.0 2:7.0 3:1.0
+0 1:48.0 2:4.0 3:0.0
+0 1:41.0 2:9.0 3:1.0
+Generation: 1 Fittest: 32680 Fittest Chromosome: 35 14 70 13 12 8 83 5 
+Generation: 2 Fittest: 32680 Fittest Chromosome: 35 14 70 13 12 8 83 5 
+Generation: 3 Fittest: 36716 Fittest Chromosome: 18 7 72 13 8 6 63 15 
+Generation: 4 Fittest: 39437 Fittest Chromosome: 35 7 70 16 11 6 85 5 
+Generation: 5 Fittest: 48146 Fittest Chromosome: 37 14 70 13 12 9 77 11 
+Generation: 6 Fittest: 50784 Fittest Chromosome: 37 7 70 13 11 6 69 5 
+Generation: 7 Fittest: 51056 Fittest Chromosome: 35 7 70 16 11 6 69 5 
+Generation: 8 Fittest: 59917 Fittest Chromosome: 35 7 71 16 11 6 69 5 
+Generation: 9 Fittest: 59917 Fittest Chromosome: 35 7 71 16 11 6 69 5 
+1 1:35.0 2:7.0 3:0.0
+2 1:71.0 2:16.0 3:0.0
+1 1:11.0 2:6.0 3:1.0
+2 1:69.0 2:5.0 3:1.0
+0 1:43.0 2:2.0 3:0.0
+0 1:58.0 2:14.0 3:1.0
+Generation: 1 Fittest: 28051 Fittest Chromosome: 36 12 77 14 7 7 67 8 
+Generation: 2 Fittest: 44975 Fittest Chromosome: 36 12 77 11 10 7 67 8 
+Generation: 3 Fittest: 44975 Fittest Chromosome: 36 12 77 11 10 7 67 8 
+Generation: 4 Fittest: 55703 Fittest Chromosome: 36 12 77 11 10 7 67 7 
+Generation: 5 Fittest: 68964 Fittest Chromosome: 34 13 77 11 25 15 60 8 
+Generation: 6 Fittest: 75882 Fittest Chromosome: 36 13 77 11 25 15 67 7 
+1 1:36.0 2:13.0 3:0.0
+2 1:77.0 2:11.0 3:0.0
+1 1:25.0 2:15.0 3:1.0
+2 1:60.0 2:8.0 3:1.0
+0 1:55.0 2:13.0 3:0.0
+0 1:40.0 2:10.0 3:1.0
+Generation: 1 Fittest: 35622 Fittest Chromosome: 39 5 76 7 34 13 65 7 
+Generation: 2 Fittest: 45647 Fittest Chromosome: 21 5 67 12 27 13 76 6 
+Generation: 3 Fittest: 65012 Fittest Chromosome: 39 7 76 9 34 17 65 7 
+Generation: 4 Fittest: 56660 Fittest Chromosome: 32 5 76 9 13 9 69 6 
+Generation: 5 Fittest: 61465 Fittest Chromosome: 21 5 67 12 27 11 65 7 
+Generation: 6 Fittest: 80725 Fittest Chromosome: 31 5 76 9 31 11 66 7 
+Generation: 7 Fittest: 74386 Fittest Chromosome: 31 5 76 9 27 13 65 7 
+Generation: 8 Fittest: 78957 Fittest Chromosome: 31 5 76 9 27 11 61 7 
+1 1:31.0 2:5.0 3:0.0
+2 1:76.0 2:9.0 3:0.0
+1 1:27.0 2:11.0 3:1.0
+2 1:61.0 2:7.0 3:1.0
+0 1:53.0 2:4.0 3:0.0
+0 1:43.0 2:12.0 3:1.0
+Generation: 1 Fittest: 28718 Fittest Chromosome: 37 17 77 12 10 12 84 8 
+Generation: 2 Fittest: 40780 Fittest Chromosome: 15 5 75 11 6 14 60 15 
+Generation: 3 Fittest: 40780 Fittest Chromosome: 15 5 75 11 6 14 60 15 
+Generation: 4 Fittest: 40874 Fittest Chromosome: 37 8 86 8 19 17 75 8 
+Generation: 5 Fittest: 47455 Fittest Chromosome: 37 5 75 11 19 14 60 8 
+Generation: 6 Fittest: 55418 Fittest Chromosome: 15 5 75 11 19 14 60 8 
+Generation: 7 Fittest: 55418 Fittest Chromosome: 15 5 75 11 19 14 60 8 
+Generation: 8 Fittest: 55911 Fittest Chromosome: 15 1 75 11 19 14 60 8 
+1 1:15.0 2:1.0 3:0.0
+2 1:75.0 2:11.0 3:0.0
+1 1:19.0 2:14.0 3:1.0
+2 1:60.0 2:8.0 3:1.0
+0 1:57.0 2:10.0 3:0.0
+0 1:50.0 2:11.0 3:1.0
+Generation: 1 Fittest: 27369 Fittest Chromosome: 11 7 70 12 37 12 60 5 
+Generation: 2 Fittest: 45459 Fittest Chromosome: 34 7 70 12 37 12 60 5 
+Generation: 3 Fittest: 48022 Fittest Chromosome: 24 5 77 11 13 7 74 7 
+Generation: 4 Fittest: 61232 Fittest Chromosome: 37 7 78 9 29 12 60 5 
+Generation: 5 Fittest: 65178 Fittest Chromosome: 34 5 70 12 29 12 60 5 
+Generation: 6 Fittest: 69951 Fittest Chromosome: 37 7 77 9 29 12 60 7 
+Generation: 7 Fittest: 78808 Fittest Chromosome: 34 5 70 11 29 12 60 7 
+1 1:34.0 2:5.0 3:0.0
+2 1:70.0 2:11.0 3:0.0
+1 1:29.0 2:12.0 3:1.0
+2 1:60.0 2:7.0 3:1.0
+0 1:44.0 2:4.0 3:0.0
+0 1:55.0 2:18.0 3:1.0
+Generation: 1 Fittest: 29824 Fittest Chromosome: 18 7 74 10 19 11 73 7 
+Generation: 2 Fittest: 36120 Fittest Chromosome: 30 10 70 18 19 9 75 6 
+Generation: 3 Fittest: 50440 Fittest Chromosome: 30 5 74 10 15 10 69 7 
+Generation: 4 Fittest: 58075 Fittest Chromosome: 30 5 74 10 15 10 67 7 
+Generation: 5 Fittest: 59012 Fittest Chromosome: 29 5 81 9 29 10 67 7 
+Generation: 6 Fittest: 78964 Fittest Chromosome: 15 5 81 9 29 10 67 7 
+Generation: 7 Fittest: 78964 Fittest Chromosome: 15 5 81 9 29 10 67 7 
+Generation: 8 Fittest: 77195 Fittest Chromosome: 15 5 81 9 29 9 67 7 
+Generation: 9 Fittest: 79818 Fittest Chromosome: 15 5 81 9 19 9 67 7 
+1 1:15.0 2:5.0 3:0.0
+2 1:81.0 2:9.0 3:0.0
+1 1:19.0 2:9.0 3:1.0
+2 1:67.0 2:7.0 3:1.0
+0 1:47.0 2:8.0 3:0.0
+0 1:50.0 2:17.0 3:1.0
+Generation: 1 Fittest: 25033 Fittest Chromosome: 34 7 72 15 34 7 62 10 
+Generation: 2 Fittest: 37061 Fittest Chromosome: 36 8 78 6 27 15 68 5 
+Generation: 3 Fittest: 44951 Fittest Chromosome: 36 6 86 6 27 16 68 5 
+Generation: 4 Fittest: 44951 Fittest Chromosome: 36 6 86 6 27 16 68 5 
+Generation: 5 Fittest: 53612 Fittest Chromosome: 32 6 89 6 27 10 60 5 
+1 1:32.0 2:6.0 3:0.0
+2 1:89.0 2:6.0 3:0.0
+1 1:27.0 2:10.0 3:1.0
+2 1:60.0 2:5.0 3:1.0
+0 1:49.0 2:12.0 3:0.0
+0 1:55.0 2:16.0 3:1.0

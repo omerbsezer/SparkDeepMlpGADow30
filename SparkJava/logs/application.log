@@ -1,0 +1,608 @@
+2017-02-15 15:09:44,227 - [WARN] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Skipped [JCublasBackend] backend (unavailable): java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+
+2017-02-15 15:09:44,248 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2017-02-15 15:09:45,448 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 4
+
+2017-02-15 15:10:28,378 - [WARN] - from org.deeplearning4j.nn.conf.MultiLayerConfiguration in main
+                
+Warning: new network default sets pretrain to false.
+
+2017-02-15 15:10:28,378 - [WARN] - from org.deeplearning4j.nn.conf.MultiLayerConfiguration in main
+                
+Warning: new network default sets backprop to true.
+
+2017-02-15 15:10:31,456 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+Initiating RDD<DataSet> export at /tmp/hadoop-user/dl4j/1487160628648_-7614cde/0/
+
+2017-02-15 15:13:35,918 - [WARN] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Skipped [JCublasBackend] backend (unavailable): java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+
+2017-02-15 15:13:35,957 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2017-02-15 15:13:36,563 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 4
+
+2017-02-15 15:14:13,909 - [WARN] - from org.deeplearning4j.nn.conf.MultiLayerConfiguration in main
+                
+Warning: new network default sets pretrain to false.
+
+2017-02-15 15:14:13,909 - [WARN] - from org.deeplearning4j.nn.conf.MultiLayerConfiguration in main
+                
+Warning: new network default sets backprop to true.
+
+2017-02-15 15:14:16,873 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+Initiating RDD<DataSet> export at /tmp/hadoop-user/dl4j/1487160854180_5887999f/0/
+
+2017-02-15 15:21:00,084 - [WARN] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Skipped [JCublasBackend] backend (unavailable): java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+
+2017-02-15 15:21:00,117 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2017-02-15 15:21:00,391 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 4
+
+2017-02-15 15:21:40,485 - [WARN] - from org.deeplearning4j.nn.conf.MultiLayerConfiguration in main
+                
+Warning: new network default sets pretrain to false.
+
+2017-02-15 15:21:40,485 - [WARN] - from org.deeplearning4j.nn.conf.MultiLayerConfiguration in main
+                
+Warning: new network default sets backprop to true.
+
+2017-02-15 15:21:43,151 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+Initiating RDD<DataSet> export at /tmp/hadoop-user/dl4j/1487161300756_2a31e35d/0/
+
+2017-02-15 15:24:45,383 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+RDD<DataSet> export complete at /tmp/hadoop-user/dl4j/1487161300756_2a31e35d/0/
+
+2017-02-15 15:24:47,580 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+Starting training of split 1 of 93. workerMiniBatchSize=16, averagingFreq=5, Configured for 8 workers
+
+2017-02-15 15:24:48,168 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-6
+                
+Exception in task 2.0 in stage 3.0 (TID 26)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:24:48,168 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-3
+                
+Exception in task 3.0 in stage 3.0 (TID 27)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:24:48,168 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-0
+                
+Exception in task 1.0 in stage 3.0 (TID 25)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:24:48,168 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-7
+                
+Exception in task 4.0 in stage 3.0 (TID 28)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:24:48,168 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-5
+                
+Exception in task 5.0 in stage 3.0 (TID 29)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:24:48,168 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-1
+                
+Exception in task 6.0 in stage 3.0 (TID 30)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:24:48,168 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-4
+                
+Exception in task 7.0 in stage 3.0 (TID 31)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:24:48,169 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-2
+                
+Exception in task 0.0 in stage 3.0 (TID 24)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:24:48,293 - [ERROR] - from org.apache.spark.scheduler.TaskSetManager in task-result-getter-1
+                
+Task 6 in stage 3.0 failed 1 times; aborting job
+
+2017-02-15 15:33:29,809 - [WARN] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Skipped [JCublasBackend] backend (unavailable): java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+
+2017-02-15 15:33:29,830 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2017-02-15 15:33:30,032 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 4
+
+2017-02-15 15:34:14,542 - [WARN] - from org.deeplearning4j.nn.conf.MultiLayerConfiguration in main
+                
+Warning: new network default sets pretrain to false.
+
+2017-02-15 15:34:14,542 - [WARN] - from org.deeplearning4j.nn.conf.MultiLayerConfiguration in main
+                
+Warning: new network default sets backprop to true.
+
+2017-02-15 15:34:19,065 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+Initiating RDD<DataSet> export at /tmp/hadoop-user/dl4j/1487162054820_68bdad74/0/
+
+2017-02-15 15:37:22,793 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+RDD<DataSet> export complete at /tmp/hadoop-user/dl4j/1487162054820_68bdad74/0/
+
+2017-02-15 15:37:25,111 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+Starting training of split 1 of 93. workerMiniBatchSize=16, averagingFreq=5, Configured for 8 workers
+
+2017-02-15 15:37:25,863 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-4
+                
+Exception in task 3.0 in stage 3.0 (TID 27)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.impl.common.repartition.MapTupleToPairFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:37:25,863 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-3
+                
+Exception in task 0.0 in stage 3.0 (TID 24)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.impl.common.repartition.MapTupleToPairFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:37:25,863 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-6
+                
+Exception in task 2.0 in stage 3.0 (TID 26)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.impl.common.repartition.MapTupleToPairFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:37:25,863 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-0
+                
+Exception in task 1.0 in stage 3.0 (TID 25)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.impl.common.repartition.MapTupleToPairFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:37:25,863 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-5
+                
+Exception in task 4.0 in stage 3.0 (TID 28)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.impl.common.repartition.MapTupleToPairFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:37:25,863 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-7
+                
+Exception in task 6.0 in stage 3.0 (TID 30)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.impl.common.repartition.MapTupleToPairFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:37:25,863 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-1
+                
+Exception in task 7.0 in stage 3.0 (TID 31)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.impl.common.repartition.MapTupleToPairFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:37:25,863 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-2
+                
+Exception in task 5.0 in stage 3.0 (TID 29)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.impl.common.repartition.MapTupleToPairFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$9$1.apply(JavaRDDLike.scala:209) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:96) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ShuffleMapTask.runTask(ShuffleMapTask.scala:53) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 15:37:26,007 - [ERROR] - from org.apache.spark.scheduler.TaskSetManager in task-result-getter-2
+                
+Task 4 in stage 3.0 failed 1 times; aborting job
+
+2017-02-15 16:10:21,664 - [WARN] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Skipped [JCublasBackend] backend (unavailable): java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+
+2017-02-15 16:10:21,684 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2017-02-15 16:10:22,008 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 4
+
+2017-02-15 16:11:03,381 - [WARN] - from org.deeplearning4j.nn.conf.MultiLayerConfiguration in main
+                
+Warning: new network default sets pretrain to false.
+
+2017-02-15 16:11:03,381 - [WARN] - from org.deeplearning4j.nn.conf.MultiLayerConfiguration in main
+                
+Warning: new network default sets backprop to true.
+
+2017-02-15 16:11:06,615 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+Initiating RDD<DataSet> export at /tmp/hadoop-user/dl4j/1487164263688_692cea5c/0/
+
+2017-02-15 16:14:18,718 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+RDD<DataSet> export complete at /tmp/hadoop-user/dl4j/1487164263688_692cea5c/0/
+
+2017-02-15 16:14:21,402 - [INFO] - from org.deeplearning4j.spark.impl.paramavg.ParameterAveragingTrainingMaster in main
+                
+Starting training of split 1 of 93. workerMiniBatchSize=16, averagingFreq=5, Configured for 8 workers
+
+2017-02-15 16:14:22,205 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-3
+                
+Exception in task 0.0 in stage 3.0 (TID 24)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 16:14:22,205 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-1
+                
+Exception in task 1.0 in stage 3.0 (TID 25)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 16:14:22,206 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-0
+                
+Exception in task 7.0 in stage 3.0 (TID 31)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 16:14:22,206 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-5
+                
+Exception in task 6.0 in stage 3.0 (TID 30)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 16:14:22,206 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-7
+                
+Exception in task 3.0 in stage 3.0 (TID 27)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 16:14:22,206 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-4
+                
+Exception in task 5.0 in stage 3.0 (TID 29)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 16:14:22,206 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-2
+                
+Exception in task 2.0 in stage 3.0 (TID 26)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 16:14:22,206 - [ERROR] - from org.apache.spark.executor.Executor in Executor task launch worker-6
+                
+Exception in task 4.0 in stage 3.0 (TID 28)
+java.lang.AbstractMethodError: org.deeplearning4j.spark.api.worker.ExecuteWorkerPathFlatMap.call(Ljava/lang/Object;)Ljava/util/Iterator;
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.api.java.JavaRDDLike$$anonfun$fn$4$1.apply(JavaRDDLike.scala:153) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD$$anonfun$mapPartitions$1$$anonfun$apply$23.apply(RDD.scala:796) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:38) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:323) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:287) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:87) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.scheduler.Task.run(Task.scala:99) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:282) ~[spark-core_2.11-2.1.0.jar:2.1.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_121]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_121]
+
+2017-02-15 16:14:22,405 - [ERROR] - from org.apache.spark.scheduler.TaskSetManager in task-result-getter-3
+                
+Task 6 in stage 3.0 failed 1 times; aborting job
+
+2017-02-15 16:17:43,993 - [WARN] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Skipped [JCublasBackend] backend (unavailable): java.lang.IllegalArgumentException: Parameter 'directory' is not a directory
+
+2017-02-15 16:17:44,015 - [INFO] - from org.nd4j.linalg.factory.Nd4jBackend in main
+                
+Loaded [CpuBackend] backend
+
+2017-02-15 16:17:44,367 - [INFO] - from org.nd4j.nativeblas.NativeOpsHolder in main
+                
+Number of threads used for NativeOps: 4
+

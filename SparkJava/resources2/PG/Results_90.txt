@@ -1,0 +1,39 @@
+Start Capital: \$10000.0
+1.(1-10) => 175.57 Capital: $10173.57
+2.(28-57) => -41.23 Capital: $10130.34
+3.(119-134) => 351.88 Capital: $10480.22
+4.(259-289) => -322.3 Capital: $10155.93
+5.(330-392) => -262.16 Capital: $9891.76
+6.(448-505) => 604.73 Capital: $10494.49
+7.(519-535) => -1103.69 Capital: $9388.8
+8.(539-568) => 140.14 Capital: $9526.95
+9.(654-670) => 320.26 Capital: $9845.21
+10.(762-776) => 365.48 Capital: $10208.69
+11.(984-997) => 248.09 Capital: $10454.78
+12.(1049-1075) => -46.9 Capital: $10405.88
+13.(1117-1147) => 27.01 Capital: $10430.89
+14.(1151-1174) => 149.25 Capital: $10578.14
+15.(1279-1296) => 537.14 Capital: $11113.28
+16.(1331-1393) => -265.31 Capital: $10845.97
+17.(1509-1521) => 444.48 Capital: $11288.45
+18.(1674-1690) => 252.94 Capital: $11539.39
+19.(1907-1920) => 631.84 Capital: $12169.23
+20.(2060-2146) => 153.54 Capital: $12320.77
+21.(2159-2176) => -1313.32 Capital: $11005.45
+22.(2178-2199) => 274.73 Capital: $11278.18
+23.(2234-2249) => 672.44 Capital: $11948.62
+24.(2276-2284) => 882.09 Capital: $12828.71
+25.(2470-2505) => 121.69 Capital: $12948.4
+Our System => totalMoney = $12948.4
+BAH => totalMoney = $17530.18
+Our System Annualized return % => 3.82%
+BaH Annualized return % => 8.48%
+Annualized number of transaction => 3.6#
+Percent success of transaction => 72.0%
+Average percent profit per transaction => 1.16%
+Average transaction length => 26#
+Maximum profit percent in transaction=> 7.38%
+Maximum loss percent in transaction=> -10.66%
+Maximum capital value=> $12948.4
+Minimum capital value=> $9388.8
+Idle Ratio %=>  73.35%

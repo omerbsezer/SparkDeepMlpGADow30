@@ -1,0 +1,11 @@
+Generation: 1 Fittest: 28448 Fittest Chromosome: 14 9 76 10 29 7 79 15 
+Generation: 2 Fittest: 34323 Fittest Chromosome: 13 9 76 15 29 7 82 15 
+Generation: 3 Fittest: 50243 Fittest Chromosome: 13 14 76 15 23 7 82 15 
+Generation: 4 Fittest: 50243 Fittest Chromosome: 13 14 76 15 23 7 82 15 
+Generation: 5 Fittest: 50243 Fittest Chromosome: 13 14 76 15 23 7 82 15 
+1 1:13.0 2:14.0 3:0.0
+2 1:82.0 2:15.0 3:0.0
+1 1:23.0 2:7.0 3:1.0
+2 1:82.0 2:15.0 3:1.0
+0 1:59.0 2:5.0 3:0.0
+0 1:42.0 2:18.0 3:1.0

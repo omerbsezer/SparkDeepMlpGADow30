@@ -1,0 +1,48 @@
+gene0:21
+gene1:14
+gene2:93
+gene3:8
+gene4:14
+gene5:5
+gene6:82
+gene7:12
+Start Capital: \$10000.0
+1.(1-24) => 205.14 Capital: $10203.14
+2.(100-177) => 911.97 Capital: $11113.11
+3.(243-261) => -1127.37 Capital: $9983.75
+4.(263-281) => 894.95 Capital: $10876.7
+5.(293-330) => 1313.42 Capital: $12188.12
+6.(350-405) => 1634.37 Capital: $13820.49
+7.(413-445) => -1553.81 Capital: $12264.68
+8.(447-609) => 2360.31 Capital: $14622.99
+9.(652-725) => 2681.83 Capital: $17302.82
+10.(737-752) => 404.85 Capital: $17705.67
+11.(759-809) => 1626.53 Capital: $19330.2
+12.(852-955) => 3158.54 Capital: $22486.74
+13.(996-1071) => -145.39 Capital: $22339.35
+14.(1112-1134) => 1288.21 Capital: $23625.56
+15.(1153-1245) => 3231.57 Capital: $26855.13
+16.(1278-1365) => -2908.06 Capital: $23945.07
+17.(1412-1444) => 1892.29 Capital: $25835.36
+18.(1470-1495) => 736.48 Capital: $26569.84
+19.(1587-1643) => 696.69 Capital: $27264.53
+20.(1649-1689) => 316.04 Capital: $27578.57
+21.(1701-1725) => 940.91 Capital: $28517.48
+22.(1839-1974) => -1136.56 Capital: $27378.92
+23.(2003-2208) => 5326.41 Capital: $32703.33
+24.(2290-2320) => 2649.04 Capital: $35350.36
+25.(2362-2400) => -126.69 Capital: $35221.68
+26.(2410-2489) => 282.64 Capital: $35502.32
+Our System => totalMoney = $35502.32
+BAH => totalMoney = $37929.57
+Our System Annualized return % => 20.17%
+BaH Annualized return % => 21.33%
+Annualized number of transaction => 3.8#
+Percent success of transaction => 76.92%
+Average percent profit per transaction => 5.36%
+Average transaction length => 61#
+Maximum profit percent in transaction=> 19.46%
+Maximum loss percent in transaction=> -10.83%
+Maximum capital value=> $35502.32
+Minimum capital value=> $9983.75
+Idle Ratio %=>  36.34%
