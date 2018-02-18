@@ -37,3 +37,11 @@ _**Cite as:**_
 **MLA:**
 
 Sezer, Omer Berat, Murat Ozbayoglu, and Erdogan Dogdu. "A Deep Neural-Network Based Stock Trading System Based on Evolutionary Optimized Technical Analysis Parameters." Procedia Computer Science 114 (2017): 473-480
+
+What is Multi Layer Perceptron (MLP)? (General Information): https://en.wikipedia.org/wiki/Multilayer_perceptron
+
+What is Genetic Algorithm?: https://en.wikipedia.org/wiki/Genetic_algorithm
+
+What is Relative Strength Index?: https://en.wikipedia.org/wiki/Relative_strength_index
+
+Apache Spark MLlib: https://spark.apache.org/mllib/
