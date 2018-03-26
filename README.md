@@ -24,13 +24,14 @@ range of stocks even for relatively longer periods. The structure of the chromos
 
 ![chrom](https://user-images.githubusercontent.com/10358317/37893611-414eeedc-30e4-11e8-9315-a9ca9affdbb3.png)
 
+Genetic algorithm phase is illustrated as follows:
+
+![ga_phase](https://user-images.githubusercontent.com/10358317/37894980-ab84311e-30e8-11e8-8f77-630d187dafca.png)
 
 
+**ResearchGate:** https://www.researchgate.net/publication/320370508_A_Deep_Neural-Network_Based_Stock_Trading_System_Based_on_Evolutionary_Optimized_Technical_Analysis_Parameters
 
-
-
-
-Science Direct Link: http://www.sciencedirect.com/science/article/pii/S1877050917318252
+**Science Direct Link:** http://www.sciencedirect.com/science/article/pii/S1877050917318252
 
 _**Cite as:**_
 
